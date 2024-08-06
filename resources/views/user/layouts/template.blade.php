@@ -135,7 +135,6 @@
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('category') }}">Sidebar Shop</a></li>
-								<li><a href="{{ route('singleproduct') }}">Shop Detail</a></li>
                                 <li><a href="{{ route('addtocart') }}">Cart</a></li>
                                 <li><a href="{{ route('checkout') }}">Checkout</a></li>
                                 <li><a href="{{ route('userprofile') }}">My Account</a></li>
