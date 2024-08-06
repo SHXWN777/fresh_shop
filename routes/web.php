@@ -37,7 +37,7 @@ Route::controller(HomeController::class)->group(function(){
 Route::controller(ProductsController::class)->group(function(){
     Route::get('/user/category', 'CategoryPage')->name('category');
     Route::get('/user/gallery', 'Gallery')->name('gallery');
-    Route::get('/user/product-details', 'SingleProduct')->name('singleproduct');
+    Route::get('/user/product-details/{id}', 'SingleProduct')->name('singleproduct');
 });
 
 Route::middleware(['auth', 'verified'])->group(function(){
